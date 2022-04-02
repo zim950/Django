@@ -24,7 +24,5 @@ let joinAndDisplayLocalStream = async () => {
     localTracks[1].play(`user-${UID}`)
 
     await client.publish(localTracks[0], localTracks[1])
-
 }
- 
 joinAndDisplayLocalStream()
