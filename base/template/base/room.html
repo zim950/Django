@@ -7,9 +7,25 @@
         <p>Room Name: <span id="room-name"></span></p>
     </section>
 
-    <section id="video-streams"></section>    
-                 
+    <section id="video-streams">
+
+    </section>    
+    <section>
+        <div class="image-section">
+            <div class="image-container">
+                <img class="image-info" src="{% static 'images/leave.png' %}" alt="">
+            </div>
+            <div>
+                <img src="{% static 'images/microphone.png' %}" alt="">
+            </div>
+            <div>
+                <img src="{% static 'images/video.png' %}" alt="">
+            </div>
+        </div>
+    </section>
+
+   
 </main>  
-<script type="text/javascript" src="{% static 'assets/AgoraRTC_N-4.11.0.js' %}"></script>      
+<script type="text/javascript" src="{% static 'assets/AgoraRTC_N-4.8.1.js' %}"></script>      
 <script type="text/javascript" src="{% static 'js/streams.js' %}"></script>
 {% endblock content %}

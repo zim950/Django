@@ -27,7 +27,7 @@ body{
 }
 
 /*---lobby---*/
-#form-container{
+#form-container {
     width: 500px;
     box-shadow:var(--shaddow);
     background-color: rgb(9, 221, 175);
@@ -63,4 +63,28 @@ body{
 .video-play{
     height: 100%;
     width: 100%;
+}
+
+/* ------------------  Streams Page | Controls ------------------ */
+
+
+/* #mic-btn{
+height: 40px;
+width: 40px;
+}
+
+#leave-btn{
+    background-color: rgb(255, 80, 80, 1);
+} */
+/* .image-container img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+} */
+.image-container{
+    display: flex;
+}
+.image-info{
+    width: 50px !important;
+    height: 60px !important;
 }
